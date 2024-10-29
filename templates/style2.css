@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #345464; /* Color de fondo suave */
+    color: #4a2c2a; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #7f4f2a; /* Color inspirador */
+   
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; /* Espacio entre el formulario y la tabla */
+    width: 100%; /* Ancho completo */
+    max-width: 600px; /* Ancho máximo */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"], input[type="number"], button {
+    padding: 10px;
+    margin: 10px 0; /* Espaciado entre campos */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo del botón de agregar */
+button[type="submit"] {
+    background-color: #6b8e23; /* Color verde */
+    color: white; /* Texto blanco */
+    cursor: pointer; /* Cambia el cursor */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto al pasar el ratón sobre el botón de agregar */
+button[type="submit"]:hover {
+    background-color: #8fbf4c; /* Color más claro al pasar el ratón */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar bordes */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo de las celdas de la tabla */
+th, td {
+    padding: 12px; /* Espaciado interno */
+    text-align: left; /* Alinear texto a la izquierda */
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+}
+
+/* Estilo de las cabeceras de la tabla */
+th {
+    background-color: #6b8e23; /* Color de fondo de las cabeceras */
+    color: white; /* Color de texto */
+}
+
+/* Estilo de los botones de eliminar */
+button[type="submit"][name="eliminar"] {
+    background-color: #c71c24; /* Color rojo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+}
+
+/* Efecto al pasar el ratón sobre el botón de eliminar */
+button[type="submit"][name="eliminar"]:hover {
+    background-color: #e74c3c; /* Color más claro al pasar el ratón */
+}
+
+/* Agregar un contenedor para centrar los elementos */
+.container {
+    max-width: 800px; /* Ancho máximo */
+    width: 100%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espacio interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.textito{
+    color: #345464;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.textito:hover{
+    color: #c71c24;
+}

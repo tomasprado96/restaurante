@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #345464; /* Color de fondo suave */
+    color: #4a2c2a; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del encabezado de la página */
+h2 {
+    font-size: 2em; /* Tamaño del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    color:  #e7e2c4; /* Color inspirador */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%; /* Ancho completo */
+    max-width: 400px; /* Ancho máximo */
+    padding: 12px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre campos */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de texto */
+}
+
+/* Estilo del botón de registro */
+button[type="submit"] {
+    background-color: #c8290c; /* Color verde */
+    color: white; /* Texto blanco */
+    padding: 12px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    font-size: 1em; /* Tamaño de texto */
+    transition: background-color 0.3s; /* Transición suave */
+    width: 100%; /* Ancho completo */
+    max-width: 400px; /* Ancho máximo */
+}
+
+/* Efecto al pasar el ratón sobre el botón de registro */
+button[type="submit"]:hover {
+    background-color:#a8220a; /* Color más claro al pasar el ratón */
+}
+
+/* Estilo del mensaje de registro */
+.message {
+    color: #c71c24; /* Color de mensaje de error */
+    font-size: 1em; /* Tamaño de texto */
+    margin-top: 20px; /* Espacio superior */
+    text-align: center; /* Centrar texto */
+}
+
+.textito{
+    color: #f3fbff;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.textito:hover{
+    color: #c71c24;
+}
+

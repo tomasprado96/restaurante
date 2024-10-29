@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #345464; /* Color de fondo suave */
+    color: #4a2c2a; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e7e2c4; /* Color inspirador */
+     /* Sombra para darle profundidad */
+}
+
+/* Estilo de la lista */
+ul {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0;
+}
+
+/* Estilo de cada elemento de la lista */
+li {
+    margin: 50px 0; /* Aumentar el margen para separar los botones */
+}
+
+/* Estilo de los enlaces */
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; /* Color del texto del enlace */
+    background-color: #c8290c; /* Color verde inspirado en la película */
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+/* Efecto al pasar el ratón sobre el enlace */
+a:hover {
+    background-color: #a8220a; /* Color más claro al pasar el ratón */
+}
+
+/* Agregar un contenedor para centrar los elementos */
+.container {
+    max-width: 600px; /* Ancho máximo */
+    width: 100%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espacio interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
